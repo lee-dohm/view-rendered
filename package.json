@@ -12,7 +12,8 @@
     "test": "jest && standard"
   },
   "dependencies": {
-    "probot": "^6.1.0"
+    "probot": "^6.1.0",
+    "probot-attachments": "git+https://github.com/probot/attachments.git"
   },
   "devDependencies": {
     "jest": "^21.2.1",
