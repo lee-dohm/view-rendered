@@ -2,6 +2,8 @@
 
 > a GitHub App built with [probot](https://github.com/probot/probot) that appends a "View Rendered" set of links to PRs that include Markdown documents
 
+![Sample](images/sample.png "Sample")
+
 ## Setup
 
 ```sh
