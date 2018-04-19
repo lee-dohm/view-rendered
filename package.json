@@ -1,0 +1,31 @@
+{
+  "name": "view-rendered",
+  "version": "1.0.0",
+  "description": "Appends a \"View Rendered\" set of links to PRs that include Markdown documents",
+  "author": "Lee Dohm <lee@lee-dohm.com> (https://github.com/probot/view-rendered)",
+  "license": "ISC",
+  "repository": "https://github.com/probot/view-rendered.git",
+  "scripts": {
+    "dev": "nodemon --exec \"npm start\"",
+    "start": "probot run ./index.js",
+    "lint": "standard --fix",
+    "test": "jest && standard"
+  },
+  "dependencies": {
+    "probot": "^6.0.0"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "nodemon": "^1.17.2",
+    "smee-client": "^1.0.1",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
