@@ -4,7 +4,7 @@
   "description": "Appends a \"View Rendered\" set of links to PRs that include Markdown documents",
   "author": "Lee Dohm <lee@lee-dohm.com> (https://github.com/probot/view-rendered)",
   "license": "ISC",
-  "repository": "https://github.com/probot/view-rendered.git",
+  "repository": "github:probot/view-rendered",
   "scripts": {
     "dev": "nodemon --exec \"npm start\"",
     "start": "probot run ./index.js",
